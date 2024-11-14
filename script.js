@@ -21,5 +21,5 @@ function showPrevImage() {
 nextButton.addEventListener('click', showNextImage);
 prevButton.addEventListener('click', showPrevImage);
 
-// Cambiar imagen cada 3 segundos (automático)
-setInterval(showNextImage, 3000);
+// Cambiar imagen cada 4 segundos (automático)
+setInterval(showNextImage, 4000);
