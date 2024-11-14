@@ -9,11 +9,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffe6f0;
+    background-image: url('./assets/imgs/fondo2.jpg');
+    background-size:contain;  /* Ajusta el tamaño de la imagen */
     color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 /* Navbar */
 .navbar {
@@ -68,7 +71,6 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    padding: 60px 0;
     position: relative;
     text-align: center;
     color: #fff;
@@ -105,18 +107,16 @@ body {
 
 /* Título del carrusel */
 .testimonials-section h2 {
-    font-size: 2em;
+    /* font-size: 2em; */
     color: #c400c6;
     text-align: center;
     margin: 1em 0 .3em;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-transform: capitalize;
+    font-weight: revert;
     letter-spacing: 2px;
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
-    
-
 }
 
 .testimonials-section h2::after {
@@ -128,6 +128,7 @@ body {
     height: 3px;
     background-color: #ff69b4;
     transition: width 0.3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .testimonials-section h2:hover::after {
@@ -276,6 +277,7 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10%;
 }
 
 /* Estilo para los íconos de redes sociales */
